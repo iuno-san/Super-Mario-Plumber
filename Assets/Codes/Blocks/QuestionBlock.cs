@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class QuestionBlock : MonoBehaviour
 {
+    [SerializeField] AudioSource coinSoundEffect;
     [SerializeField] private float bounceHeight = 0.5f;
     [SerializeField] private float bounceSpeed = 2f;
 
@@ -28,6 +29,7 @@ public class QuestionBlock : MonoBehaviour
             && col.collider.bounds.max.x > transform.position.x - 0.5f
             && col.collider.tag == "Player")
         {
+            coinSoundEffect.Play();
             QuestionBlockBounce();
         }
     }

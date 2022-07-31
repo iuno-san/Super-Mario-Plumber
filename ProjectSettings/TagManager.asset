@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - Enemy
   - Questionblock
+  - Checkpoint
+  - Coin
+  - AbbysSprite
+  - endSprite
   layers:
   - Default
   - TransparentFX
@@ -16,7 +20,7 @@ TagManager:
   - UI
   - Player
   - 
-  - 
+  - Enemy
   - Ground
   - Wall
   - 

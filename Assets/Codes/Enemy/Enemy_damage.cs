@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,18 +6,26 @@ using UnityEngine.SceneManagement;
 
 public class Enemy_damage : MonoBehaviour
 {
-    Animator anim;
-    private void Awake()
+    [SerializeField] private Animator anim;
+
+    private void Start()
     {
         anim = GetComponent<Animator>();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D col)
     {
-        if (collision.tag == "Player")
+        if (col.CompareTag("SpikeHead"))
+        {
+            StartCoroutine(die());
+        }
+        
+        IEnumerator die()
         {
             anim.SetTrigger("died");
+            yield return new WaitForSeconds(2);
         }
+        
     }
 
 }

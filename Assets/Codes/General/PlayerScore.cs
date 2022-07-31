@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,47 +7,120 @@ using UnityEngine.UI;
 
 public class PlayerScore : MonoBehaviour
 {
-    [SerializeField] private float timeLeft = 120;
-    [SerializeField] public int Score = 0;
+    [SerializeField] private AudioSource coinsSoundEffect;
+    [SerializeField] private AudioSource MushroomColectSound;
+    [SerializeField] private AudioSource FlowerEffectSound;
+    [SerializeField] private float timeLeft = 300;
+    [SerializeField] public int score = 0;
+    [SerializeField] public int highScore = 0;
+    [SerializeField] public int lives = 3;
+    public bool isGameOver = false;
 
+    public Text TimeLeftUIText;
+    public Text ScoreUIText;
+    public Text LivesUIText;
+    public Text HighScoreUIText;
+    
 
-    public GameObject TimeLeftUI;
-    public GameObject ScoreUI;
+    private void Awake()
+    {
+        GameData savedData = GameState.LoadGameSave();
+
+        score = savedData.currentScore;
+        lives = savedData.currentLives;
+        highScore = savedData.highScore;
+    }
 
     private void Update()
     {
         timeLeft -= Time.deltaTime;
-        //pobierz komponeny tekstu ustaw licznik puntków i czasu
-        TimeLeftUI.gameObject.GetComponent<Text>().text = ("TIME " + (int)timeLeft);
-        ScoreUI.gameObject.GetComponent<Text>().text = ("SCORE " + Score);
+        //pobierz komponeny tekstu ustaw licznik puntkï¿½w i czasu
+        TimeLeftUIText.text = ("TIME " + (int)timeLeft);
+        ScoreUIText.text = ("SCORE " + score);
+        LivesUIText.text = ("LIVES " + lives);
+        HighScoreUIText.text = ("HighScore " + highScore);
 
-        if (timeLeft < 0.1f)
-            SceneManager.LoadScene("Level-1");
+        if ((timeLeft < 0.1f || lives < 1) && !isGameOver)
+            GameOver();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Castle"))
+        {
+            GameState.SaveGame(score, lives, highScore);
+        } 
+        
         if (collision.gameObject.name == ("EndSprite"))
         {
             CountScore();
-            DataManagement.instance.SaveData();
         }
 
-        if (collision.gameObject.name == ("Coin"))
+        if (collision.gameObject.CompareTag("Coin"))
         {
             AddCoinScore();
             Destroy (collision.gameObject);
+            coinsSoundEffect.Play();
+        }
+
+        if (collision.CompareTag("MinerSprite"))
+        {
+            --lives;
+        }
+
+        if (collision.CompareTag("Mushroom"))
+        {
+            ++lives;
+            MushroomColectSound.Play();
+        }
+
+        if (collision.CompareTag("star"))
+        {
+            score += 500;
+            FlowerEffectSound.Play();
+        }
+
+        if (collision.CompareTag("Flower"))
+        {
+            score += 200;
+            FlowerEffectSound.Play();
+        }
+
+        if (collision.CompareTag("Enemy"))
+        {
+            score += 50;
         }
     }
 
     public void AddCoinScore()
     {
-        Score += 50;
+        score += 50;
     }
 
     void CountScore()
     {
-        Score = Score + (int)(timeLeft * 10);
+        score = score + (int)(timeLeft * 5);
     }
 
+    void GameOver()
+    {
+        if (isGameOver)
+            return; // Allow to call only once.
+        isGameOver = true;
+
+        // Zapisz wynik do pliku:
+        highScore = highScore > score ? highScore : score;
+
+        GameState.SaveGame(score, lives, highScore);
+        
+        Debug.Log("Zapisano grÄ™ z wynikiem "+score+";"+highScore);
+        
+        score = 0;
+
+        lives = 3;
+        
+        SceneManager.LoadScene("GameOver", LoadSceneMode.Single);
+        
+    }
+    
 }

@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMove : MonoBehaviour
 {
+    public bool debug = false;
     [SerializeField] private float movementDistance;
     [SerializeField] private float speed;
     private bool movingLeft;
@@ -17,48 +19,61 @@ public class EnemyMove : MonoBehaviour
     }
     private void Update()
     {
-        Flip();
-        
+        Patrol();
+        //die();
     }
-    void die()
+
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        RaycastHit2D hit = gameObject.GetComponent<RaycastHit2D>();
-        if (hit.collider.tag == "Player")
+        if (col != null && !col.collider.CompareTag("Player") && col.collider.CompareTag("Ground"))
         {
-            Destroy(hit.collider.gameObject);
+            movingLeft = !movingLeft;
         }
-
     }
 
-    void Flip()
+
+    private void Patrol()
     {
+        if(debug)
+            Debug.Log(movingLeft+", "+leftEdge+", "+rightEdge+", "+transform.position.x);
+
         if (movingLeft)
         {
             if (transform.position.x > leftEdge)
             {
                 transform.position = new Vector3(
-                    transform.position.x - speed * Time.deltaTime,
+                    transform.position.x - (speed * Time.deltaTime),
                     transform.position.y,
                     transform.position.z
                 );
             }
             else
                 movingLeft = false;
-
+        
         }
         else
         {
             if (transform.position.x < rightEdge)
             {
                 transform.position = new Vector3(
-                    transform.position.x + speed * Time.deltaTime,
+                    transform.position.x + (speed * Time.deltaTime),
                     transform.position.y,
                     transform.position.z
                 );
+                
             }
             else
                 movingLeft = true;
-
+        }
+        
+        if (movingLeft)
+        {
+            gameObject.transform.rotation = Quaternion.Euler(0,0,0);
+        }
+        else
+        {
+            gameObject.transform.rotation = Quaternion.Euler(0,180,0);
         }
     }
+
 }

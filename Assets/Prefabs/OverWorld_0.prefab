@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2821067559254469525}
   - component: {fileID: 2821067559254469526}
-  - component: {fileID: 2821067559254469527}
+  - component: {fileID: 5563394616053778922}
   m_Layer: 0
   m_Name: OverWorld_0
   m_TagString: Ground
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &2821067559254469527
-BoxCollider2D:
+--- !u!70 &5563394616053778922
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -111,16 +111,6 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0143013, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
-    newSize: {x: 2, y: 0.5}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 2
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.9777908, y: 0.5}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.0042625656, y: 0.012795093}
+  m_Size: {x: 2.0085347, y: 0.5153352}
+  m_Direction: 1
