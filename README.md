@@ -7,14 +7,17 @@
   <strong>Bowser has kidnapped Princess Peach, You must rescue her as soon as possible mario !!! </strong> 
 </div>
 
-<p align="center">
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
+## 🔭 ScreenShot
+
+<div align="center">
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
    <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzE1LnBuZw==/347x500/2pWsqG.png" /></a>
-</p>
-<p align="center">
+</div>
+<div align="center">
   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzIzLnBuZw==/347x500/e5CZ9X.png" /></a>
    <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTg3LnBuZw==/347x500/AYiB3b.png" /></a>
-</p>
+<br>
+</div>
 
 ## 💬 Story
 
