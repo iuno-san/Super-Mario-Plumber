@@ -2,11 +2,6 @@
   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img src="https://img.itch.zone/aW1nLzkzMzM2MzAucG5n/original/iRlhsS.png" /></a>
 </p>
 
-<div align="center">
-  <h1>WELCOME TO THE NEW MARIO ADVENTURE!!! </h1>
-  <strong>Bowser has kidnapped Princess Peach, You must rescue her as soon as possible mario !!! </strong> 
-</div>
-
 ## 🔭 ScreenShot
 
 <div align="center">
