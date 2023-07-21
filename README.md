@@ -2,7 +2,7 @@
   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img src="https://img.itch.zone/aW1nLzkzMzM2MzAucG5n/original/iRlhsS.png" /></a>
 </p>
 
-## 🔭 ScreenShot
+## 🎮 ScreenShot
 
 <div align="center">
   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
@@ -44,7 +44,7 @@
   <br>
 </div>
 
-## 🌱 Getting Started
+## ✨ Getting Started
 <div>
   <ol>
     <li>Click the star and download game on itch.io</li>
