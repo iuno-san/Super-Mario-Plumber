@@ -2,27 +2,30 @@
   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img src="https://img.itch.zone/aW1nLzkzMzM2MzAucG5n/original/iRlhsS.png" /></a>
 </p>
 
-## 🎮 ScreenShot
 
-<div align="center">
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
-   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzE1LnBuZw==/347x500/2pWsqG.png" /></a>
+## 🎮 Game Preview
+
+<div align="left">
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300" alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzE1LnBuZw==/347x500/2pWsqG.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTY1LnBuZw==/347x500/bDM79X.png" /></a>
 </div>
-<div align="center">
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzIzLnBuZw==/347x500/e5CZ9X.png" /></a>
-   <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTg3LnBuZw==/347x500/AYiB3b.png" /></a>
+<div align="left">
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzIzLnBuZw==/347x500/e5CZ9X.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTg3LnBuZw==/347x500/AYiB3b.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzI0LnBuZw==/original/9VhS5Q.png" /></a>
+</div>
 <br>
-</div>
 
 ## 💬 Story
 
 <div>
-  <h5>
+  <h3>
     The game was created with inspiration from the original Super Mario Bros 1985 game. In creating it, my goal was to make a game as close to those original games as possible, with as many interesting and fun twists on those ideas within the original Super Mario Bros limitations. However, the game differs from the original version in many ways. Beautiful graphical assets have been added, new enemy animations, new enemies new obstacles and much more.
     Thanks to Nintendo for the music, sprites and sounds.
   </p>
-    <br>
 </div>
+<br>
     
 ## ⚡ What this game has
 <div>
@@ -41,8 +44,8 @@
     <li>Hard Challange Rooms</li>
     <li>Main Boss Bowser</li>
   </ul>
-  <br>
 </div>
+<br>
 
 ## ✨ Getting Started
 <div>
