@@ -20,7 +20,7 @@
 ## 💬 Story
 
 <div>
-  <h3>
+  <h4>
     The game was created with inspiration from the original Super Mario Bros 1985 game. In creating it, my goal was to make a game as close to those original games as possible, with as many interesting and fun twists on those ideas within the original Super Mario Bros limitations. However, the game differs from the original version in many ways. Beautiful graphical assets have been added, new enemy animations, new enemies new obstacles and much more.
     Thanks to Nintendo for the music, sprites and sounds.
   </p>
