@@ -6,14 +6,14 @@
 ## 🎮 Game Preview
 
 <div align="left">
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300" alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzE1LnBuZw==/347x500/2pWsqG.png" /></a>
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTY1LnBuZw==/347x500/bDM79X.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270" alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTYwLnBuZw==/347x500/gRVq5D.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzE1LnBuZw==/347x500/2pWsqG.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTY1LnBuZw==/347x500/bDM79X.png" /></a>
 </div>
 <div align="left">
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzIzLnBuZw==/347x500/e5CZ9X.png" /></a>
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTg3LnBuZw==/347x500/AYiB3b.png" /></a>
-  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="300"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzI0LnBuZw==/original/9VhS5Q.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzIzLnBuZw==/347x500/e5CZ9X.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzNTg3LnBuZw==/347x500/AYiB3b.png" /></a>
+  <a target="_blank" href="https://iunosan.itch.io/super-mario-plumber"><img width="270"  alt="Game screenshot" src="https://img.itch.zone/aW1hZ2UvMTU5NTg3NC85MzMzMzI0LnBuZw==/original/9VhS5Q.png" /></a>
 </div>
 <br>
 
